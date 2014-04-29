@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+browserify beep.js boop.js \
+ -p [ factor-bundle -o built/beep.js -o built/boop.js ] \
+ -o built/common.js
